@@ -5,7 +5,7 @@ const SeatGrid = () => {
 
   const { getPricingTier, toggleSeat, selectedSeats, error } = useContext(BookingContext)
 
-  console.log(selectedSeats);
+  // console.log(selectedSeats);
 
   return (
     <div className={styles.seatGrid}>

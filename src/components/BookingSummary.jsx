@@ -6,8 +6,8 @@ const BookingSummary = () => {
 
     const { getPricingTier, totalCost, selectedSeats, handleBooking, showConfirmation, resetBooking } = useContext(BookingContext)
 
-    console.log(showConfirmation);
-    console.log(selectedSeats);
+    // console.log(showConfirmation);
+    // console.log(selectedSeats);
     
     
     return (
